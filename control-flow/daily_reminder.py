@@ -19,5 +19,6 @@ elif time_bound == "no":
 else:
     message = error_message 
 
-message = f"Reminder: {task} is a {priority} priority task.{reminder}."
+#message = f"Reminder: {task} is a {priority} priority task.{reminder}."
+message = f"Note: '{task}' is a {priority} priority task. {reminder}."
 print(message)
