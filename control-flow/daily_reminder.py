@@ -20,5 +20,5 @@ else:
     message = error_message 
 
 #message = f"Reminder: {task} is a {priority} priority task.{reminder}."
-message = f"Note: '{task}' is a {priority} priority task. {reminder}."
+message = f"Reminder: '{task}' is a {priority} priority task. {"that requires immediate attention today!" if time_bound == "yes" else "Consider completing it when you have free time."}."
 print(message)
