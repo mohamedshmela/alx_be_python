@@ -17,7 +17,7 @@ def calculate_temperature():
         int_temperature = int(temperature)
         is_integer = True 
     except ValueError:
-        print("The input is not an integer")
+        print("Invalid temperature. Please enter a numeric value.")
         return 
     type = input("Is this temperature in Celsius or Fahrenheit? (C/F):").strip().lower()
     if type == "c":
